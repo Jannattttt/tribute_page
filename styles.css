@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Main container styling */
+#main {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Title Styling */
+#title {
+    font-size: 2.5rem;
+    color: #3d3d5c;
+    margin-bottom: 20px;
+}
+
+/* Image and caption styling */
+#img-div {
+    margin-bottom: 20px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#img-caption {
+    font-style: italic;
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Tribute information styling */
+#tribute-info {
+    font-size: 1.1rem;
+    color: #4a4a59;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Link styling */
+#tribute-link {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+#tribute-link:hover {
+    color: #005599;
+    border-color: #005599;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #title {
+        font-size: 2rem;
+    }
+    #tribute-info {
+        font-size: 1rem;
+    }
+}
